@@ -4,12 +4,12 @@ class Scraping {
 
     var $data = Array();
     var $maxUrl = 0;
-    var $date = "";
+    var $date = '';
 
-    function __construct($max, $date="")
+    function __construct($max, $date='')
     {
        $this->maxUrl = $max;
-       $this->date = date("Ymd");
+       $this->date = date('Ymd');
     }
 
     /*
@@ -36,7 +36,7 @@ class Scraping {
         foreach ($webs as $value) {
             $web = $this->getContentsCurl($value);
             $nodes = $this->getDom($web);
-            $nod = $this->getElementTag($nodes, "article");
+            $nod = $this->getElementTag($nodes, 'article');
 
             $links = $this->getWebUrls($nod, $value);
 
@@ -46,17 +46,17 @@ class Scraping {
                 $nodes = $this->getDom($article);
 
                 // Get IMG
-                $n = $this->getElementTag($nodes, "article");
-                $no = $this->getElementTag($n->item(0), "img");
+                $n = $this->getElementTag($nodes, 'article');
+                $no = $this->getElementTag($n->item(0), 'img');
 
                 // Check exist IMG
                 if($no->length > 0)
-                    $img = $this->getAttribute($no->item(0), "src");
+                    $img = $this->getAttribute($no->item(0), 'src');
                 else
                     $img = NULL;
 
                 // Get all meta from html
-                $metas = $this->getElementTag($nodes, "meta");
+                $metas = $this->getElementTag($nodes, 'meta');
 
                 // For codification
                 $charset = false;
@@ -65,20 +65,20 @@ class Scraping {
                 {
                     $meta = $metas->item($i);
 
-                    if($this->getAttribute($meta, "property") == "og:title")
-                        $title = $this->getAttribute($meta, "content");
+                    if($this->getAttribute($meta, 'property') == 'og:title')
+                        $title = $this->getAttribute($meta, 'content');
 
-                    if($this->getAttribute($meta, "property") == "og:description")
-                        $body = $this->getAttribute($meta, "content");
+                    if($this->getAttribute($meta, 'property') == 'og:description')
+                        $body = $this->getAttribute($meta, 'content');
 
-                    if($this->getAttribute($meta, "property") == "og:site_name")
-                        $publiser = $this->getAttribute($meta, "content");
+                    if($this->getAttribute($meta, 'property') == 'og:site_name')
+                        $publiser = $this->getAttribute($meta, 'content');
 
                     // Check codification
-                    if($this->getAttribute($meta, "http-equiv") == "Content-Type"){
-                        $char = $this->getAttribute($meta, "content");
+                    if($this->getAttribute($meta, 'http-equiv') == 'Content-Type'){
+                        $char = $this->getAttribute($meta, 'content');
 
-                        if(strpos($char, "charset") == true)
+                        if(strpos($char, 'charset') == true)
                             $charset = true;
                     }
 
@@ -94,10 +94,11 @@ class Scraping {
                 // Create Array
                 $dataPage = array(
                             'publisher' => $publiser,
-                            "title"     => $title,
-                            "img"       => $img,
-                            "url"       => $val,
-                            "body"      => $body
+                            'title'     => $title,
+                            'img'       => $img,
+                            'url'       => $val,
+                            'body'      => $body,
+                            'date'      => $this->date
                 );
 
                 // Insert into Array
@@ -152,8 +153,8 @@ class Scraping {
         for($i=0; $i<$this->maxUrl; $i++){
             $content = $nodes->item($i);
 
-            $link = $this->getElementTag($content, "a");
-            $link = $this->getAttribute($link[0], "href");
+            $link = $this->getElementTag($content, 'a');
+            $link = $this->getAttribute($link[0], 'href');
 
             $pos = strpos($link, $value);
             if($pos === false){
