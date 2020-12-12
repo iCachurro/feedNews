@@ -4,3 +4,21 @@ CRITICAL - 2020-12-12 05:28:28 --> Call to undefined function App\Controllers\vi
 #2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2020-12-12 05:50:01 --> Call to undefined function App\Controllers\views()
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 05:50:03 --> Call to undefined function App\Controllers\views()
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 05:50:06 --> Call to undefined function App\Controllers\views()
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
