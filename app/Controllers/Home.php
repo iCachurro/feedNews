@@ -1,7 +1,6 @@
 <?php namespace App\Controllers;
 
 use CodeIgniter\Controller;
-use App\Models\urlModel;
 use App\Models\contentModel;
 use App\Libraries\scraping;
 
