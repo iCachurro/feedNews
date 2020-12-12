@@ -6,7 +6,7 @@ class Scraping {
     var $maxUrl = 0;
     var $date = '';
 
-    function __construct($max, $date='')
+    public function __construct($max, $date='')
     {
        $this->maxUrl = $max;
        $this->date = date('Ymd');
@@ -16,7 +16,7 @@ class Scraping {
     * Get data from array
     * Return array
     */
-    function getData()
+    private function getData()
     {
         return $this->data;
     }
@@ -24,7 +24,7 @@ class Scraping {
     /*
     * Load content from websites
     */
-    function load()
+    private function load()
     {
         // Array with websites
         $webs = array(
@@ -113,7 +113,7 @@ class Scraping {
     * input link
     * output code
     */
-    function getContentsCurl($url)
+    private function getContentsCurl($url)
     {
         $ch = curl_init();
 
@@ -133,7 +133,7 @@ class Scraping {
     * input link
     * output dom element
     */
-    function getDom($web)
+    private function getDom($web)
     {
         $dom = new \DOMDocument();
         @ $dom->loadHTML($web);
@@ -146,7 +146,7 @@ class Scraping {
     * input node and string to search
     * output array with links
     */
-    function getWebUrls($nodes, $value)
+    private function getWebUrls($nodes, $value)
     {
         $array = array();
 
@@ -172,7 +172,7 @@ class Scraping {
     * input element and tag to search
     * output dom element
     */
-    function getElementTag($element, $tag)
+    private function getElementTag($element, $tag)
     {
         return $element->getElementsByTagName($tag);
     }
@@ -182,7 +182,7 @@ class Scraping {
     * input element and attribute to search
     * output string
     */
-    function getAttribute($element, $attr){
+    private function getAttribute($element, $attr){
         return $element->getAttribute($attr);
     }
 
@@ -191,7 +191,7 @@ class Scraping {
     * input strings
     * output string
     */
-    function codification($value){
+    private function codification($value){
         return utf8_decode($value);
     }
 
