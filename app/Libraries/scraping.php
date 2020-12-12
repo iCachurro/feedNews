@@ -16,7 +16,7 @@ class Scraping {
     * Get data from array
     * Return array
     */
-    private function getData()
+    public function getData()
     {
         return $this->data;
     }
@@ -24,7 +24,7 @@ class Scraping {
     /*
     * Load content from websites
     */
-    private function load()
+    public function load()
     {
         // Array with websites
         $webs = array(
