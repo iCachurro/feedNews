@@ -11,11 +11,11 @@
 </head>
 <body>
     <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-        <a href="index.php" class="my-0 mr-md-auto">
+        <a href="<?php echo base_url(); ?>" class="my-0 mr-md-auto">
             <h5 class="font-weight-normal">feedNews</h5>
         </a>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="administrator.php">Administrador</a>
+            <a class="p-auto btn btn-primary" href="<?php echo base_url() . '/news'; ?>" role="button">Nueva Noticia</a>
         </nav>
 
     </header>
