@@ -22,3 +22,30 @@ CRITICAL - 2020-12-12 05:50:06 --> Call to undefined function App\Controllers\vi
 #2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2020-12-12 16:44:15 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 16:46:25 --> Call to a member function whereIn() on array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 16:46:30 --> Call to a member function whereIn() on array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 16:47:29 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Database\BaseBuilder.php(853): CodeIgniter\Database\BaseBuilder->_whereIn('date', '20201212', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Model.php(1818): CodeIgniter\Database\BaseBuilder->whereIn('date', '20201212')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(12): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
