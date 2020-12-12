@@ -4,7 +4,8 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('welcome_message');
+		$views = view('header') . view('news') . view('footer');
+		return $views;
 	}
 
 	//--------------------------------------------------------------------
