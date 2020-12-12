@@ -1,11 +1,18 @@
 <?php namespace App\Libraries;
 
+/*
+* Class to manage the html of the websites
+*/
 class Scraping {
 
     var $data = Array();
     var $maxUrl = 0;
     var $date = '';
 
+    /*
+    * Constructor of Scraping Class
+    * input max of elements and date of today
+    */
     public function __construct($max, $date='')
     {
        $this->maxUrl = $max;

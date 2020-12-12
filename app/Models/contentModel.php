@@ -3,7 +3,7 @@
 use CodeIgniter\Model;
 
 /**
- *
+ * Model to manage content table
  */
 class contentModel extends Model
 {
@@ -15,7 +15,10 @@ class contentModel extends Model
 
     protected $allowedFields = ['publisher','title', 'img', 'body', 'url','date'];
 
-
+    /*
+    * Insert into content table
+    * input array
+    */
     public function insertFromWeb($data)
     {
         foreach ($data as $key => $value) {

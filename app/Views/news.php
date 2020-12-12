@@ -31,6 +31,10 @@ if($data == NULL){
                 <?php } ?>
 
                 <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <small class="text-muted"><?php echo $value['publisher']; ?></small>
+                        <small class="text-muted"><?php echo changeDate($value['date']); ?></small>
+                    </div>
                     <h5 class="card-text">
                         <?php echo $value['title']; ?>
                     </h5>
@@ -39,10 +43,13 @@ if($data == NULL){
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a role="button" class="btn btn-sm btn-outline-secondary" href="<?php echo $value['url']; ?>" target="_blank">Ver</button>
-                            <a role="button" class="btn btn-sm btn-outline-secondary" href="<?php echo base_url() . '/news/' . $value['id']; ?>">Editar</a>
+                            <a role="button" class="btn btn-sm btn-outline-success" href="<?php echo $value['url']; ?>" target="_blank">Ver</a>
                         </div>
-                        <small class="text-muted"><?php echo $value['publisher']; ?></small>
+                        <div class="btn-group">
+                            <a role="button" class="btn btn-sm btn-outline-info" href="<?php echo base_url() . '/news/' . $value['id']; ?>">Editar</a>
+                            <a role="button" class="btn btn-sm btn-outline-danger" href="<?php echo base_url() . '/news/' . $value['id']; ?>">Borrar</a>
+                        </div>
+
                     </div>
                 </div>
             </article>

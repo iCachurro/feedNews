@@ -18,19 +18,21 @@ class Home extends BaseController
 		return $views;
 	}
 
+	/*
+	* Load data from websites
+	*/
 	public function loadData()
 	{
+		// Load data
 		$scraping = new Scraping(5);
 		$scraping->load();
 		$data = $scraping->getData();
 
+		// Insert into DB
 		$contents = new contentModel($db);
-
 		$contents->insertFromWeb($data);
-//$views = view('header');
 
-		//redirect('/');
-
+		// Return to index
 		return redirect()->to(base_url());
 
 	}
