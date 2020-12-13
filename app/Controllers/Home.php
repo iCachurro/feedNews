@@ -19,10 +19,15 @@ class Home extends BaseController
 	*/
 	public function index()
 	{
-		// Get data
+		// Get data with pagination
 		$contents = new contentModel($db);
-		$data = $contents->where('date', dateNow())->findAll();
-		$data = array('data' => $data);
+		$data = $contents
+						->where('date', dateNow())
+						->orderBy('date', 'desc')
+						->orderBy('id', 'asc')
+						->paginate();
+		$pager = $contents->pager;
+		$data = array('data' => $data, 'pager' => $pager);
 
 		// Create View
 		$views = view('header') . view('news', $data) . view('footer');

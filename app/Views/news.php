@@ -23,9 +23,9 @@ if($data == NULL){
                 ?>
                     <img class="card-img-top"
                         alt="<?php echo $value["title"]; ?>"
+                        title="<?php echo $value["title"]; ?>"
                         style="height: 225px; width: 100%; display: block;"
                         src="<?php echo $value['img']; ?>"
-                        data-holder-rendered="true"
                     >
                 <?php } ?>
 
@@ -42,11 +42,11 @@ if($data == NULL){
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a role="button" class="btn btn-sm btn-outline-success" href="<?php echo $value['url']; ?>" target="_blank">Ver</a>
+                            <a role="button" class="btn btn-sm btn-outline-success" href="<?php echo $value['url']; ?>" target="_blank"><i class="fas fa-globe"></i></a>
                         </div>
                         <div class="btn-group">
-                            <a role="button" class="btn btn-sm btn-outline-info" href="<?php echo base_url() . '/Home/editData/' . $value['id']; ?>">Editar</a>
-                            <a role="button" class="btn btn-sm btn-outline-danger" href="<?php echo base_url() . '/Home/deleteData/' . $value['id']; ?>">Borrar</a>
+                            <a role="button" class="btn btn-sm btn-outline-info" href="<?php echo base_url() . '/Home/editData/' . $value['id']; ?>"><i class="fas fa-pencil-alt"></i></a>
+                            <a role="button" class="btn btn-sm btn-outline-danger" href="<?php echo base_url() . '/Home/deleteData/' . $value['id']; ?>"><i class="fas fa-trash-alt"></i></a>
                         </div>
 
                     </div>
@@ -58,6 +58,11 @@ if($data == NULL){
     <?php
     }
     ?>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <?php echo $pager->links(); ?>
+        </div>
     </div>
     <?php
 }
