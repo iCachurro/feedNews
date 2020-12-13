@@ -220,3 +220,13 @@ CRITICAL - 2020-12-13 12:42:33 --> syntax error, unexpected '?>'
 #4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2020-12-13 17:18:11 --> Undefined offset: 0
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Views\newsForm.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(131): view('newsForm', Array)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData('280')
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

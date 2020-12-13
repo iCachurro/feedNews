@@ -1,4 +1,5 @@
 <?php
+// Check today exists news
 if($data == NULL){
     ?>
     <div class="row">
