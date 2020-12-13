@@ -6,7 +6,7 @@
 
 ### Introducción
 
-Aplicación de ```Scraping```, sobre el Framework de ```Codeigner 4```, para la obtención de contenido de páginas establecidas.
+Aplicación de ```Scraping```, sobre el Framework de ```Codeigner 4```, para la obtención de contenido de páginas establecidas.  
 Obtiene los siguientes valores que son almacenados en la BD [ver la estructura en al archivo adjunto].
   - Título de la noticia
   - Imagen si existe
@@ -24,7 +24,7 @@ Obtiene los siguientes valores que son almacenados en la BD [ver la estructura e
 
 ### Funcionamiento
 
-La primera vez que accedes a la web te solicita que realices el ```scraping``` para poder obtener las noticias.
+La primera vez que accedes a la web te solicita que realices el ```scraping``` para poder obtener las noticias.  
 Una vez obtenidas, se muetran todas las noticias del día en la página principal.
 
 
