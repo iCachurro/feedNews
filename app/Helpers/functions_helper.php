@@ -6,7 +6,7 @@
 */
 function dateNow()
 {
-    return date('Ymd');
+    return date('Y-m-d');
 }
 
 /*
@@ -17,8 +17,8 @@ function dateNow()
 function changeDate($value)
 {
     $year = substr($value, 0, 4);
-    $month = substr($value, 4, 2);
-    $day = substr($value, 6, 2);
+    $month = substr($value, 5, 2);
+    $day = substr($value, 8, 2);
 
     $date = $day . '/' . $month . '/' . $year;
 

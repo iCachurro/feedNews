@@ -15,7 +15,7 @@
             <h5 class="font-weight-normal">feedNews</h5>
         </a>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-auto btn btn-primary" href="<?php echo base_url() . '/news'; ?>" role="button">Nueva Noticia</a>
+            <a class="p-auto btn btn-primary" href="<?php echo base_url() . '/Home/news'; ?>" role="button">Nueva Noticia</a>
         </nav>
 
     </header>

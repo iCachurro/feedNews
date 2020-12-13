@@ -742,3 +742,344 @@ CRITICAL - 2020-12-12 22:30:55 --> syntax error, unexpected '}', expecting ';'
 #3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2020-12-12 22:49:16 --> syntax error, unexpected 'funcion' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('home/news')
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('home/news')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-12 23:31:48 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(123): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->edit()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:32:27 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Database\BaseBuilder.php(2234): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(123): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:37:30 --> Undefined variable: contents
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Views\newsForm.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-12 23:37:54 --> Undefined variable: contents
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Views\newsForm.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-12 23:37:55 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:37:57 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:38:14 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:38:15 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:38:16 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:38:29 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:38:30 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:38:31 --> include(C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Views\newsForm.php): failed to open stream: Resource temporarily unavailable
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\xamp...', 'C:\\xampp\\htdocs...', 246, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-12 23:42:03 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(125): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:00 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:01 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:02 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:03 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:13 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:15 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:16 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:17 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:18 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:19 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:20 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:26 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(126): view('newsForm', Array)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-12 23:43:55 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:43:57 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:43:58 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:43:59 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:43:59 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:00 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:00 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:01 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:01 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:02 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:02 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:03 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-12 23:44:36 --> Undefined variable: contents0
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-12 23:44:37 --> Undefined variable: contents0
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-12 23:44:38 --> Undefined variable: contents0
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-12 23:44:45 --> Undefined variable: contents0
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-12 23:47:08 --> Cannot use object of type App\Models\contentModel as array
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->editData()
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
