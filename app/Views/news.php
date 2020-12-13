@@ -15,7 +15,6 @@ if($data == NULL){
     <?php
     foreach ($data as $value) {
         ?>
-
         <div class="col-md-4">
             <article class="card mb-4 box-shadow">
                 <?php
@@ -46,15 +45,13 @@ if($data == NULL){
                         </div>
                         <div class="btn-group">
                             <a role="button" class="btn btn-sm btn-outline-info" href="<?php echo base_url() . '/Home/editData/' . $value['id']; ?>"><i class="fas fa-pencil-alt"></i></a>
-                            <a role="button" class="btn btn-sm btn-outline-danger" href="<?php echo base_url() . '/Home/deleteData/' . $value['id']; ?>"><i class="fas fa-trash-alt"></i></a>
+                            <a role="button" class="btn btn-sm btn-outline-danger delete" data-id="<?php echo $value['id']; ?>" data-toggle="modal" data-target="#confirm"><i class="fas fa-trash-alt"></i></a>
                         </div>
 
                     </div>
                 </div>
             </article>
         </div>
-
-
     <?php
     }
     ?>
@@ -67,3 +64,26 @@ if($data == NULL){
     <?php
 }
 ?>
+
+
+
+<!--Modal-->
+<div class="modal fade" id="confirm" tabindex="-1" aria-labelledby="confirm" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmLabel">Advertencia</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>¿Estás seguro que deseas eliminar la publicación?</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <a role="button" class="btn btn-sm btn-danger" id="deleteButton" href="">Eliminar</a>
+            </div>
+        </div>
+    </div>
+</div>
