@@ -31,7 +31,7 @@ if(isset($data)){
 
     <div class="row">
         <div class="col-md-12">
-            <?php echo form_input(array('name' => 'title', 'placeholder' => 'Título', 'class' => 'form-control mb-2', 'value' => $title)); ?>
+            <?php echo form_input(array('name' => 'title', 'placeholder' => 'Título', 'class' => 'form-control mb-2', 'value' => $title, 'required' => 'required')); ?>
         </div>
     </div>
     <div class="row">
@@ -39,17 +39,17 @@ if(isset($data)){
             <?php echo form_input(array('name' => 'publisher', 'placeholder' => 'Fuente', 'class' => 'form-control mb-2', 'value' => $publisher)); ?>
         </div>
         <div class="col-md-6">
-            <?php echo form_input(array('name' => 'date', 'type' => 'date', 'placeholder' => 'Fecha', 'class' => 'form-control mb-2', 'value' => $date)); ?>
+            <?php echo form_input(array('name' => 'date', 'type' => 'date', 'placeholder' => 'Fecha', 'class' => 'form-control mb-2', 'value' => $date, 'required' => 'required')); ?>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <?php echo form_input(array('name' => 'img', 'placeholder' => 'Imagen: http://ejemplo.com/abcd.jpg', 'class' => 'form-control mb-2', 'value' => $img)); ?>
+            <?php echo form_input(array('name' => 'img', 'type' => 'url', 'placeholder' => 'Imagen: http://ejemplo.com/abcd.jpg', 'class' => 'form-control mb-2', 'value' => $img)); ?>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <?php echo form_input(array('name' => 'url', 'placeholder' => 'Link: http://ejemplo.com', 'class' => 'form-control mb-2', 'value' => $url)); ?>
+            <?php echo form_input(array('name' => 'url', 'type' => 'url', 'placeholder' => 'Link: http://ejemplo.com', 'class' => 'form-control mb-2', 'value' => $url, 'required' => 'required')); ?>
         </div>
     </div>
     <div class="row">

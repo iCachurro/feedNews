@@ -204,3 +204,19 @@ CRITICAL - 2020-12-13 12:10:59 --> syntax error, unexpected ')'
 #4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 {main}
+CRITICAL - 2020-12-13 12:41:46 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(82): view('newsForm')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->news()
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 12:42:33 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\Common.php(1119): CodeIgniter\View\View->render('newsForm', Array, true)
+#1 C:\xampp\htdocs\Dropbox\GitHub\feedNews\app\Controllers\Home.php(82): view('newsForm')
+#2 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(918): App\Controllers\Home->news()
+#3 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\Dropbox\GitHub\feedNews\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Dropbox\GitHub\feedNews\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

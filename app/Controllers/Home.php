@@ -36,6 +36,26 @@ class Home extends BaseController
 	}
 
 	/*
+	* History
+	*/
+	public function history()
+	{
+		// Get data with pagination
+		$contents = new contentModel($db);
+		$data = $contents
+						->orderBy('date', 'desc')
+						->orderBy('id', 'asc')
+						->paginate();
+		$pager = $contents->pager;
+		$data = array('data' => $data, 'pager' => $pager);
+
+		// Create View
+		$views = view('header') . view('news', $data) . view('footer');
+
+		return $views;
+	}
+
+	/*
 	* Load data from websites
 	*/
 	public function loadData()
